@@ -1,8 +1,5 @@
-"""
-streamlit
-
-add when used
-"""
-
-
 streamlit>=1.33
+
+# Core dependencies for the calculator app
+dataclasses; python_version<'3.7'
+typing-extensions; python_version<'3.8'
