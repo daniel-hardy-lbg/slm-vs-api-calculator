@@ -51,7 +51,7 @@ def workload_inputs() -> WorkloadInputs:
         "Model class (drives self-host config)",
         options=["small", "medium", "large"],
         index=0,
-        help="Small≈8B, Medium≈13B, Large≈70B (TP2).",
+        help="Small≈1B, Medium≈8-13B, Large≈70B (TP2).",
         horizontal=True,
     )
 
