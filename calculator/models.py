@@ -1,19 +1,5 @@
 """"
-Purpose: Pure data structures (optional but clean)
-Contains
-
-@dataclass definitions for:
-
-WorkloadInputs
-CostResult
-
-Example:
-@dataclass
-class Workload:
-    daily_output_tokens: int
-    thinking_ratio: float
-    model_class: str
-    utilisation: float
+Purpose: Pure data structures
 """
 
 from dataclasses import dataclass
