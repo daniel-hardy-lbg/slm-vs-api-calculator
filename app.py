@@ -1,36 +1,5 @@
 """
-What it is
-The only file Streamlit cares about. This wires everything together.
-What goes in here
-
-st.set_page_config(...)
-Title + subtitle
-Call input components
-Pass inputs to calculator
-Render outputs
-
-What should NOT go here
-
-Maths
-Pricing logic
-Tables
-Any decision rules
-
 Think of app.py as glue code only.
-Pseudo-shape:
-
-import streamlit as st
-from ui.inputs import workload_inputs
-from ui.outputs import show_results
-from calculator.decision import evaluate_workload
-
-st.set_page_config(page_title="Self‑Host vs API Calculator", layout="centered")
-
-st.title("Self‑Host vs Gemini API Cost Calculator")
-
-inputs = workload_inputs()
-results = evaluate_workload(inputs)
-show_results(results)
 """
 
 import streamlit as st
