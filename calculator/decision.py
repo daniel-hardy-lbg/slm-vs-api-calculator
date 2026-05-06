@@ -2,12 +2,6 @@
 Purpose: Decision logic + comparison
 """
 
-
-
-"""
-End-to-end evaluation: API vs self-host with a deterministic rule.
-"""
-
 import math
 from typing import List, Dict
 
