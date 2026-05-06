@@ -1,13 +1,5 @@
 """
 Purpose: Static copy & disclaimers
-Contains
-
-Assumption text
-Warning banners
-“Directional only” disclaimer
-Tooltips
-
-Centralising text avoids logic files becoming verbose.
 """
 
 
