@@ -1,16 +1,5 @@
 """
 Purpose: Throughput & GPU constants
-Contains
-
-Hard-coded throughput table (from your paper)
-GPU hourly prices
-Mapping: model class → canonical GPU
-
-Example:
-THROUGHPUT = {    "small": {"gpu": "RTX4090", "tok_s": 8000},    "medium": {"gpu": "A100", "tok_s": 6500},    "large": {"gpu": "2xH100", "tok_s": 1500},}
-
-This is intentionally opinionated.
-If someone disagrees → they edit this file.
 """
 
 
