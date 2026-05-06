@@ -1,20 +1,5 @@
 """
 Purpose: All user inputs
-Contains
-
-Sliders
-Number inputs
-Radio buttons
-Default assumptions
-
-Example sections:
-
-Daily output tokens
-Thinking intensity (radio)
-Model class (radio)
-Advanced assumptions (expander)
-
-Returns a Workload object.
 """
 
 
