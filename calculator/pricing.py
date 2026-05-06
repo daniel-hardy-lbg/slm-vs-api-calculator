@@ -1,22 +1,5 @@
 """"
 Purpose: API pricing + blended cost
-Contains
-
-Gemini Flash prices (constants)
-Function to compute blended $/1M tokens
-Function to compute monthly API cost
-
-Example responsibilities:
-
-blended_price(alpha, beta, gamma)
-api_monthly_cost(tokens_per_day, blended_price)
-
-No GPUs. No utilisation. Just API economics.
-"""
-
-
-"""
-API pricing and blended cost computation.
 """
 
 from .models import ApiPricing
