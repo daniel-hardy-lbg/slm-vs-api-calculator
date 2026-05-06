@@ -1,16 +1,5 @@
 """
 Purpose: Results rendering
-Contains
-
-Cost table
-Winner banner
-Key bullet “why” reasons
-
-This file answers:
-
-“How do I explain the answer?”
-
-No calculations.
 """
 
 
