@@ -3,15 +3,6 @@ Purpose: Throughput & GPU constants
 """
 
 
-
-
-"""
-Self-host throughput + GPU cost assumptions.
-
-Important: your paper has some internal inconsistencies (e.g. 8B tok/s on 4090).
-For the calculator we choose ONE canonical set, explicitly.
-"""
-
 from .models import SelfHostConfig, ModelClass
 
 # Hourly prices chosen to match the paper’s monthly costs in Table 6:
