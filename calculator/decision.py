@@ -1,21 +1,5 @@
 """
 Purpose: Decision logic + comparison
-This is where your Section 7 decision tree lives.
-Contains
-
-evaluate_workload(workload)
-Calls pricing + benchmarks
-Computes:
-
-API monthly cost
-Self-host monthly cost
-Break-even
-Winner
-
-
-
-Returns a single structured result object.
-No UI here. No Streamlit.
 """
 
 
