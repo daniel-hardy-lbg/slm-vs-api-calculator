@@ -1,21 +1,5 @@
 """
 Purpose: One place to change global constants
-Contains:
-
-Utilisation default (0.75)
-Engineering overhead (0.30)
-Month length (30)
-Token-to-word constants (future)
-
-If a reviewer questions assumptions → point them here.
-"""
-
-
-"""
-Global defaults / assumptions.
-
-Keep these conservative and explicit. If someone challenges an assumption,
-you can point them here.
 """
 
 DAYS_PER_MONTH = 30
